@@ -2,5 +2,5 @@
 # Note that if tag has a value it will override the branch value,
 #    for example to install the first Drupal Beta the value of tag
 #    should be 8.0.0-beta1.
-branch='7.0.x';
+branch='7.28';
 tag='';
