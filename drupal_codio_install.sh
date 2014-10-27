@@ -14,7 +14,7 @@ mysql -u root < ./create_database.sql
 # Check to see if there is any code in workspace yet
 
 if [ ! -f /home/codio/test/index.php ]; then
-  # Fetch Drupal, get 8.x and create a master branch
+  # Fetch Drupal, get 7.x and create a master branch
   cd /home/codio/workspace
   git remote add drupal http://git.drupal.org/project/drupal.git
 
@@ -47,5 +47,5 @@ ln -s /home/codio/drush/drush drush
 cd /home/codio/workspace
 
 # Install Drupal
-drush -y si standard --db-url=mysql://drupal:drupal@localhost/drupal --site-name=drupal.codio --account-name=admin --account-pass=admin --account-mail=admin@drupal8.codio
+drush -y si standard --db-url=mysql://drupal:drupal@localhost/drupal --site-name=drupal.codio --account-name=admin --account-pass=admin --account-mail=admin@drupal7.codio
 
