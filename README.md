@@ -22,13 +22,13 @@ Start a new codio project as empty template (NOT the default HTML Boilerplate).
 
 Open a terminal via ```Tools -> Terminal```
 
-Move outside your regular project workspace ```cd /home/codio```
+Move outside your regular project workspace 
 
-Clone this project ```git clone https://github.com/brownman/drupal7_codio```
-
-Move into the new directory and run the script: 
-
-```
+```bash
+cd /home/codio 
+#Clone this project 
+git clone https://github.com/brownman/drupal7_codio
+#Move into the new directory and run the script: 
 cd drupal7_codio
 ./drupal_codio_install.sh
 ```
