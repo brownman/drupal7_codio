@@ -24,12 +24,12 @@ Open a terminal via ```Tools -> Terminal```
 
 Move outside your regular project workspace ```cd /home/codio```
 
-Clone this project ```git clone https://github.com/chris-hall-hu/drupal8_codio```
+Clone this project ```git clone https://github.com/brownman/drupal7_codio```
 
 Move into the new directory and run the script: 
 
 ```
-cd drupal8_codio
+cd drupal7_codio
 ./drupal_codio_install.sh
 ```
 
