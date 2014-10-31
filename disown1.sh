@@ -4,5 +4,9 @@
 
  
  
+parts stop mysql apache2
+
 parts start mysql apache2 &
 disown -a
+php -i | grep php.ini
+echo the end
